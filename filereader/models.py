@@ -6,8 +6,14 @@ class Repository(models.Model):
     name = models.CharField(max_length=255)
     stars = models.IntegerField()
     forks = models.IntegerField()
-    primary_language = models.CharField(max_length=100, null=True, blank=True,db_index=True) # индекс добавил для ускорения
-    created_at = models.DateTimeField(db_index=True)
+    created_at = models.DateTimeField()
+    
+class RepositoryLanguage(models.Model):
+    repository = models.ForeignKey(
+        Repository,
+        on_delete=models.CASCADE,
+        related_name="languages"
+    )
+    name = models.CharField(max_length=100)
+    size = models.IntegerField()
 
-    def __str__(self):
-        return f"{self.owner}/{self.name}"

@@ -1,11 +1,11 @@
 import json
 from django.core.management.base import BaseCommand
-from filereader.models import Repository
 from django.utils.dateparse import parse_datetime
+from filereader.models import Repository, RepositoryLanguage
 
 
 class Command(BaseCommand):
-    help = "Добавление данных в базу через bulk create пачками по 1000"
+    help = "Импорт репозиториев и языков из JSON через bulk_create"
 
     def add_arguments(self, parser):
         parser.add_argument("file_path", type=str)
@@ -17,6 +17,7 @@ class Command(BaseCommand):
             data = json.load(f)
 
         repositories = []
+        languages = []
 
         for repo in data:
             repositories.append(
@@ -25,13 +26,27 @@ class Command(BaseCommand):
                     name=repo.get("name"),
                     stars=repo.get("stars", 0),
                     forks=repo.get("forks", 0),
-                    primary_language=repo.get("primaryLanguage"),
                     created_at=parse_datetime(repo.get("createdAt")),
                 )
             )
 
-        Repository.objects.bulk_create(repositories, batch_size=1000) # добавляем через bulk для оптимизации
+        Repository.objects.bulk_create(repositories, batch_size=1000)
+
+        for repo_obj, repo in zip(repositories, data):
+
+            for lang in repo.get("languages", []):
+                languages.append(
+                    RepositoryLanguage(
+                        repository=repo_obj,
+                        name=lang.get("name"),
+                        size=lang.get("size", 0),
+                    )
+                )
+
+        RepositoryLanguage.objects.bulk_create(languages, batch_size=1000)
 
         self.stdout.write(
-            self.style.SUCCESS(f"Imported {len(repositories)} repositories")
+            self.style.SUCCESS(
+                f"Imported {len(repositories)} repositories and {len(languages)} languages"
+            )
         )
