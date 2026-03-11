@@ -1,0 +1,376 @@
+{
+    "2009": [
+        {
+            "language": "Ruby",
+            "count": 382
+        },
+        {
+            "language": "Python",
+            "count": 220
+        },
+        {
+            "language": "JavaScript",
+            "count": 176
+        },
+        {
+            "language": "Java",
+            "count": 113
+        },
+        {
+            "language": "C",
+            "count": 107
+        }
+    ],
+    "2010": [
+        {
+            "language": "JavaScript",
+            "count": 622
+        },
+        {
+            "language": "Python",
+            "count": 391
+        },
+        {
+            "language": "Ruby",
+            "count": 382
+        },
+        {
+            "language": "C",
+            "count": 241
+        },
+        {
+            "language": "Java",
+            "count": 209
+        }
+    ],
+    "2011": [
+        {
+            "language": "JavaScript",
+            "count": 1223
+        },
+        {
+            "language": "Python",
+            "count": 746
+        },
+        {
+            "language": "Ruby",
+            "count": 519
+        },
+        {
+            "language": "Java",
+            "count": 473
+        },
+        {
+            "language": "PHP",
+            "count": 419
+        }
+    ],
+    "2012": [
+        {
+            "language": "JavaScript",
+            "count": 1937
+        },
+        {
+            "language": "Python",
+            "count": 1062
+        },
+        {
+            "language": "Java",
+            "count": 697
+        },
+        {
+            "language": "C",
+            "count": 622
+        },
+        {
+            "language": "Ruby",
+            "count": 547
+        }
+    ],
+    "2013": [
+        {
+            "language": "JavaScript",
+            "count": 2600
+        },
+        {
+            "language": "Python",
+            "count": 1369
+        },
+        {
+            "language": "Java",
+            "count": 1034
+        },
+        {
+            "language": "C++",
+            "count": 785
+        },
+        {
+            "language": "C",
+            "count": 734
+        }
+    ],
+    "2014": [
+        {
+            "language": "JavaScript",
+            "count": 3002
+        },
+        {
+            "language": "Python",
+            "count": 1687
+        },
+        {
+            "language": "Java",
+            "count": 1411
+        },
+        {
+            "language": "C++",
+            "count": 963
+        },
+        {
+            "language": "C",
+            "count": 821
+        }
+    ],
+    "2015": [
+        {
+            "language": "JavaScript",
+            "count": 3535
+        },
+        {
+            "language": "Java",
+            "count": 2126
+        },
+        {
+            "language": "Python",
+            "count": 2104
+        },
+        {
+            "language": "C++",
+            "count": 1225
+        },
+        {
+            "language": "C",
+            "count": 979
+        }
+    ],
+    "2016": [
+        {
+            "language": "JavaScript",
+            "count": 3705
+        },
+        {
+            "language": "Python",
+            "count": 2712
+        },
+        {
+            "language": "Java",
+            "count": 2380
+        },
+        {
+            "language": "C++",
+            "count": 1235
+        },
+        {
+            "language": "Go",
+            "count": 1135
+        }
+    ],
+    "2017": [
+        {
+            "language": "Python",
+            "count": 3752
+        },
+        {
+            "language": "JavaScript",
+            "count": 3476
+        },
+        {
+            "language": "Java",
+            "count": 1889
+        },
+        {
+            "language": "TypeScript",
+            "count": 1290
+        },
+        {
+            "language": "C++",
+            "count": 1248
+        }
+    ],
+    "2018": [
+        {
+            "language": "Python",
+            "count": 4066
+        },
+        {
+            "language": "JavaScript",
+            "count": 2761
+        },
+        {
+            "language": "TypeScript",
+            "count": 1370
+        },
+        {
+            "language": "Java",
+            "count": 1345
+        },
+        {
+            "language": "Go",
+            "count": 1304
+        }
+    ],
+    "2019": [
+        {
+            "language": "Python",
+            "count": 4301
+        },
+        {
+            "language": "JavaScript",
+            "count": 2154
+        },
+        {
+            "language": "TypeScript",
+            "count": 1575
+        },
+        {
+            "language": "Go",
+            "count": 1227
+        },
+        {
+            "language": "C++",
+            "count": 1203
+        }
+    ],
+    "2020": [
+        {
+            "language": "Python",
+            "count": 4165
+        },
+        {
+            "language": "TypeScript",
+            "count": 1871
+        },
+        {
+            "language": "JavaScript",
+            "count": 1842
+        },
+        {
+            "language": "Go",
+            "count": 1203
+        },
+        {
+            "language": "C++",
+            "count": 1179
+        }
+    ],
+    "2021": [
+        {
+            "language": "Python",
+            "count": 3232
+        },
+        {
+            "language": "TypeScript",
+            "count": 1638
+        },
+        {
+            "language": "JavaScript",
+            "count": 1230
+        },
+        {
+            "language": "Go",
+            "count": 914
+        },
+        {
+            "language": "C++",
+            "count": 803
+        }
+    ],
+    "2022": [
+        {
+            "language": "Python",
+            "count": 2868
+        },
+        {
+            "language": "TypeScript",
+            "count": 1604
+        },
+        {
+            "language": "JavaScript",
+            "count": 906
+        },
+        {
+            "language": "Go",
+            "count": 806
+        },
+        {
+            "language": "Rust",
+            "count": 737
+        }
+    ],
+    "2023": [
+        {
+            "language": "Python",
+            "count": 4022
+        },
+        {
+            "language": "TypeScript",
+            "count": 1635
+        },
+        {
+            "language": "JavaScript",
+            "count": 756
+        },
+        {
+            "language": "Go",
+            "count": 570
+        },
+        {
+            "language": "Rust",
+            "count": 565
+        }
+    ],
+    "2024": [
+        {
+            "language": "Python",
+            "count": 2380
+        },
+        {
+            "language": "TypeScript",
+            "count": 980
+        },
+        {
+            "language": "JavaScript",
+            "count": 384
+        },
+        {
+            "language": "Go",
+            "count": 288
+        },
+        {
+            "language": "Rust",
+            "count": 282
+        }
+    ],
+    "2025": [
+        {
+            "language": "Python",
+            "count": 30
+        },
+        {
+            "language": "TypeScript",
+            "count": 7
+        },
+        {
+            "language": "Go",
+            "count": 3
+        },
+        {
+            "language": "HTML",
+            "count": 3
+        },
+        {
+            "language": "JavaScript",
+            "count": 3
+        }
+    ]
+}
